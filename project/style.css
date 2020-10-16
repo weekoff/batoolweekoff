@@ -1,0 +1,228 @@
+body{
+	background-color: rgb(128, 140, 255,0.2);
+
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:rgb(255,162,0,0.45);
+}
+.nav-link,
+.navbar-brand {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+   position: relative;
+}
+.navbar-brand {
+  height: 60px;
+  width: 60px;
+  }
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*header*/
+.header {
+  background-image:url("logo.gif");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/*OverlayStyle*/
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 68px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*div description*/
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+/*div description: h1*/
+.description h1 {
+ font-size: 100px;
+  color:#fff;
+}
+
+/*div description:button*/
+.description button {
+  border:1px solid rgb(255,140,0);
+  background:rgb(255,140,0,0.9);
+  border-radius: 0;
+  font-size: 50px;
+  color:#fff;
+}
+.description button:hover {
+  border:1px solid #fff;
+  background:#fff;
+  color:#000;
+}
+
+/*Second Div*/
+#secondDiv{
+  display: none;
+  padding: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin: auto;
+  text-align: left;
+  font-size: 19px;
+  background-color: rgb(128, 140, 255,0.2)
+
+}
+
+/* Second Div:Yes answer*/
+.Qcommon1,.Qcommonc1{
+  color: blue;
+}
+
+/* Second Div:NO answer*/
+.Qcommon2,.Qcommonc2{
+  color: red;
+}
+
+/* Second Div: common ,other, dangerous Symptoms*/
+#AC,#CS{
+  text-decoration: underline;
+}
+
+#DS{
+   text-decoration: underline;
+}
+
+
+/*resultDiv */
+
+.resultDiv button{
+  display: none;
+  margin: auto;
+  text-align: center;
+  color:white;  
+  background: rgb(255,0,0,0.3);
+  size:100px;
+  font-size: bold;
+  font-size: 80px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: gray;
+  box-shadow: 10px 10px lightgray;
+}
+
+.resultDiv pre{
+  display: none;
+  color: black;
+  font-weight: bold;
+  font-size:30px;
+  text-align: left;  
+}
+
+/*contact form */
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+/* style About.html:div1,p1*/
+
+/*h1 in about.html file*/
+h1{
+  text-align: center;
+}
+.div1, .p1 {
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightblue;
+  border: solid 1px lightblue;
+}
+
+.p1 {
+  padding: 50px;
+  display: none;
+}
+
+.div2, .p2 {
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightblue;
+  border: solid 1px lightblue;
+}
+
+.p2 {
+  padding: 50px;
+  display: none;
+}
+
+.div3, .p3 {
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightblue;
+  border: solid 1px lightblue;
+}
+
+.p3 {
+  padding: 50px;
+  display: none;
+}
+
+.div4, .p4 {
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightblue;
+  border: solid 1px lightblue;
+}
+
+.p4 {
+  padding: 50px;
+  display: none;
+}
+
+.div5, .p5 {
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightblue;
+  border: solid 1px lightblue;
+}
+
+.p5 {
+  padding: 50px;
+  display: none;
+}
